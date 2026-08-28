@@ -1,5 +1,13 @@
 {
   "mcpServers": {
+    "dhan-hq": {
+      "command": "python3",
+      "args": ["app/mcp_servers/dhan_mcp_standalone.py"],
+      "env": {
+        "DHAN_CLIENT_ID": "${DHAN_CLIENT_ID}",
+        "DHAN_ACCESS_TOKEN": "${DHAN_ACCESS_TOKEN}"
+      }
+    },
     "zerodha-kite": {
       "command": "python3",
       "args": ["app/mcp_servers/zerodha_mcp_standalone.py"],
