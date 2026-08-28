@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Obsidian & IDE configs
+.obsidian/
+.idea/
+.vscode/
+
+# Environment variables & API keys
+.env
+.env.*
+*.env
+
+# Mac OS metadata
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs & scratch
+*.log
+scratch/
