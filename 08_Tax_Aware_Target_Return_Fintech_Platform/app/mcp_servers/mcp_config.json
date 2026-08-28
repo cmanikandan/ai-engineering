@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "zerodha-kite": {
+      "command": "python3",
+      "args": ["app/mcp_servers/zerodha_mcp_standalone.py"],
+      "env": {
+        "ZERODHA_API_KEY": "${ZERODHA_API_KEY}",
+        "ZERODHA_ACCESS_TOKEN": "${ZERODHA_ACCESS_TOKEN}"
+      }
+    },
+    "razorpay-gateway": {
+      "command": "python3",
+      "args": ["app/mcp_servers/razorpay_mcp_standalone.py"],
+      "env": {
+        "RAZORPAY_KEY_ID": "${RAZORPAY_KEY_ID}",
+        "RAZORPAY_KEY_SECRET": "${RAZORPAY_KEY_SECRET}"
+      }
+    }
+  }
+}
