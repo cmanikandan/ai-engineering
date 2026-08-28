@@ -21,6 +21,7 @@ env/
 .env
 .env.*
 *.env
+!.env.example
 
 # Mac OS metadata
 .DS_Store
