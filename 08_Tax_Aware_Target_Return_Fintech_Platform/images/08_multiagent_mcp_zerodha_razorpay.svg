@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 480" width="100%" height="100%">
+  <rect width="950" height="480" fill="#0d1117" rx="10" />
+  
+  <text x="40" y="40" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="16" font-weight="bold">MODEL CONTEXT PROTOCOL (MCP) INTEGRATION: ZERODHA &amp; RAZORPAY</text>
+
+  <!-- Gemini Agent Core -->
+  <rect x="40" y="70" width="870" height="150" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="2" />
+  <text x="60" y="100" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 2.7 FLASH AGENT DEVELOPMENT KIT (ADK) HUB</text>
+  
+  <rect x="60" y="115" width="250" height="85" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="75" y="140" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">Long-Term Memory</text>
+  <text x="75" y="160" fill="#8b949e" font-family="sans-serif" font-size="11">• User Capital &amp; Target ROI</text>
+  <text x="75" y="180" fill="#8b949e" font-family="sans-serif" font-size="11">• Realized STCG Tax Ledger</text>
+
+  <rect x="350" y="115" width="250" height="85" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="365" y="140" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">SEBI Safety Shield</text>
+  <text x="365" y="160" fill="#8b949e" font-family="sans-serif" font-size="11">• 3% Max Drawdown Circuit</text>
+  <text x="365" y="180" fill="#8b949e" font-family="sans-serif" font-size="11">• PII Masking (PAN / Bank)</text>
+
+  <rect x="640" y="115" width="250" height="85" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="655" y="140" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">Automated Evals</text>
+  <text x="655" y="160" fill="#3fb950" font-family="sans-serif" font-size="11">• Tax Math Hallucination = 0%</text>
+  <text x="655" y="180" fill="#3fb950" font-family="sans-serif" font-size="11">• G-Eval Groundedness &gt; 0.95</text>
+
+  <!-- MCP Servers Bottom -->
+  <rect x="40" y="260" width="415" height="190" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="60" y="290" fill="#58a6ff" font-family="sans-serif" font-size="13" font-weight="bold">RAZORPAY MCP SERVER (Payment Ingestion)</text>
+  <text x="60" y="320" fill="#c9d1d9" font-family="monospace" font-size="11">JSON-RPC Protocol: stdio / SSE</text>
+  <text x="60" y="350" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_razorpay_create_payment_link</text>
+  <text x="60" y="375" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_razorpay_verify_webhook</text>
+  <text x="60" y="400" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_razorpay_create_upi_mandate</text>
+  <text x="60" y="430" fill="#3fb950" font-family="sans-serif" font-size="11">✓ Instant UPI Deposit Confirmation</text>
+
+  <rect x="495" y="260" width="415" height="190" rx="8" fill="#161b22" stroke="#f0883e" stroke-width="2" />
+  <text x="515" y="290" fill="#f0883e" font-family="sans-serif" font-size="13" font-weight="bold">ZERODHA KITE MCP SERVER (Brokerage &amp; Execution)</text>
+  <text x="515" y="320" fill="#c9d1d9" font-family="monospace" font-size="11">JSON-RPC Protocol: stdio / SSE</text>
+  <text x="515" y="350" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_zerodha_get_quote(symbols)</text>
+  <text x="515" y="375" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_zerodha_place_gtt_order(tradingsymbol)</text>
+  <text x="515" y="400" fill="#f0f6fc" font-family="monospace" font-size="11">→ mcp_zerodha_get_margins(user_id)</text>
+  <text x="515" y="430" fill="#3fb950" font-family="sans-serif" font-size="11">✓ Safe GTT Trailing Stop-Loss Orders</text>
+</svg>

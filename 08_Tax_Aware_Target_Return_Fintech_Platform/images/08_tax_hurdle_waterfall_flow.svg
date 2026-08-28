@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="100%" height="100%">
+  <rect width="900" height="450" fill="#0d1117" rx="10" />
+  
+  <text x="40" y="45" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="16" font-weight="bold">INDIAN SHORT-TERM CAPITAL GAINS (STCG) TAX WATERFALL RECONCILIATION</text>
+  <text x="40" y="70" fill="#8b949e" font-family="sans-serif" font-size="12">Scenario: ₹1,00,000 Principal | Requested 12.0% Net In-Hand Profit (₹12,000)</text>
+
+  <!-- Gross Target Bar -->
+  <rect x="50" y="110" width="160" height="280" rx="6" fill="#1f6feb" />
+  <text x="65" y="140" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">Gross Gain Goal</text>
+  <text x="65" y="170" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold">₹15,593</text>
+  <text x="65" y="200" fill="#c9d1d9" font-family="sans-serif" font-size="11">(15.59% Gross)</text>
+  <text x="65" y="370" fill="#ffffff" font-family="sans-serif" font-size="11">Trade Exit Target</text>
+
+  <!-- Minus STCG Tax -->
+  <rect x="260" y="110" width="160" height="120" rx="6" fill="#da3633" />
+  <text x="275" y="140" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">STCG Tax (20.8%)</text>
+  <text x="275" y="170" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold">- ₹3,243</text>
+  <text x="275" y="200" fill="#f0f6fc" font-family="sans-serif" font-size="11">Sec 111A + 4% Cess</text>
+
+  <!-- Minus Friction -->
+  <rect x="470" y="110" width="160" height="70" rx="6" fill="#d29922" />
+  <text x="485" y="135" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">STT &amp; Brokerage</text>
+  <text x="485" y="160" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">- ₹350</text>
+  <text x="485" y="175" fill="#f0f6fc" font-family="sans-serif" font-size="10">Zerodha Flat + GST</text>
+
+  <!-- Final Net Profit -->
+  <rect x="680" y="110" width="170" height="280" rx="6" fill="#238636" />
+  <text x="695" y="140" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">Net In-Hand Return</text>
+  <text x="695" y="175" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold">₹12,000</text>
+  <text x="695" y="210" fill="#e6f4ea" font-family="sans-serif" font-size="13" font-weight="bold">12.00% Exact Net</text>
+  <text x="695" y="370" fill="#ffffff" font-family="sans-serif" font-size="11">✓ User Milestone Met</text>
+
+  <!-- Formula Callout -->
+  <rect x="50" y="405" width="800" height="30" rx="4" fill="#161b22" stroke="#30363d" />
+  <text x="65" y="425" fill="#8b949e" font-family="monospace" font-size="11">Formula: Gross_Target = (Net_Goal + Friction) / (1 - 0.208) = (₹12,000 + ₹350) / 0.792 = ₹15,593</text>
+</svg>

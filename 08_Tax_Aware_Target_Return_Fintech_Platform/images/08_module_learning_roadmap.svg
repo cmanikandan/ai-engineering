@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 480" width="100%" height="100%">
+  <rect width="850" height="480" fill="#0d1117" rx="10" />
+
+  <!-- Step 1 -->
+  <rect x="25" y="20" width="800" height="95" rx="8" fill="#161b22" stroke="#238636" stroke-width="2" />
+  <text x="45" y="45" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 1: NEWBIE ONBOARDING &amp; INDIAN STCG TAX HURDLE ENGINE</text>
+  <rect x="45" y="55" width="220" height="45" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="60" y="75" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">Minimal Newbie Prompt</text>
+  <text x="60" y="90" fill="#8b949e" font-family="sans-serif" font-size="11">"₹50k capital, 10% target"</text>
+  <path d="M 265 77 L 310 77" stroke="#3fb950" stroke-width="2" />
+  <rect x="315" y="55" width="230" height="45" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="330" y="75" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">20.8% STCG + STT Math</text>
+  <text x="330" y="90" fill="#8b949e" font-family="sans-serif" font-size="11">Gross Pre-Tax Goal: ₹6,502</text>
+  <path d="M 545 77 L 590 77" stroke="#3fb950" stroke-width="2" />
+  <rect x="595" y="55" width="210" height="45" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="610" y="75" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">Razorpay UPI Link</text>
+  <text x="610" y="90" fill="#3fb950" font-family="sans-serif" font-size="11">1-Click Payment Dispatch</text>
+
+  <!-- Step 2 -->
+  <rect x="25" y="130" width="800" height="150" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="45" y="155" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 2: ZERODHA KITE MCP &amp; AUTONOMOUS BASKET SCREENING</text>
+  <rect x="45" y="170" width="220" height="95" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="55" y="195" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">Market Screening</text>
+  <text x="55" y="215" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Nifty 100 &amp; Liquid ETFs</text>
+  <text x="55" y="235" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Momentum + Breakouts</text>
+  <text x="55" y="255" fill="#8b949e" font-family="sans-serif" font-size="11">• Zero Penny Stocks</text>
+  <path d="M 265 217 L 310 217" stroke="#58a6ff" stroke-width="2" />
+  <rect x="315" y="170" width="230" height="95" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="325" y="195" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">GTT Protective Orders</text>
+  <text x="325" y="215" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Auto Target Sell Triggers</text>
+  <text x="325" y="235" fill="#c9d1d9" font-family="sans-serif" font-size="11">• 2% Trailing Stop-Loss</text>
+  <text x="325" y="255" fill="#3fb950" font-family="sans-serif" font-size="11">⚡ Zerodha Kite MCP</text>
+  <path d="M 545 217 L 590 217" stroke="#58a6ff" stroke-width="2" />
+  <rect x="595" y="170" width="210" height="95" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="605" y="195" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">Safety Supervisor</text>
+  <text x="605" y="215" fill="#c9d1d9" font-family="sans-serif" font-size="11">• 3% Max Drawdown Halt</text>
+  <text x="605" y="235" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Auto-park in LIQUIDBEES</text>
+  <text x="605" y="255" fill="#8b949e" font-family="sans-serif" font-size="11">• SEBI Safe Disclaimers</text>
+
+  <!-- Step 3 -->
+  <rect x="25" y="295" width="800" height="165" rx="8" fill="#161b22" stroke="#d29922" stroke-width="2" />
+  <text x="45" y="320" fill="#d29922" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 3: TAX-LOSS HARVESTING, AUTO-EXIT &amp; PLAIN-ENGLISH REPORTING</text>
+  <rect x="45" y="335" width="220" height="110" rx="6" fill="#21262d" stroke="#d29922" />
+  <text x="55" y="360" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">Tax Alpha Optimizer</text>
+  <text x="55" y="380" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Offset unrealized losses</text>
+  <text x="55" y="398" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Minimizes net tax due</text>
+  <text x="55" y="416" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Section 111A compliant</text>
+  <text x="55" y="434" fill="#8b949e" font-family="sans-serif" font-size="11">• ITD Audit Ledger</text>
+  <path d="M 265 390 L 310 390" stroke="#d29922" stroke-width="2" />
+  <rect x="315" y="335" width="230" height="110" rx="6" fill="#21262d" stroke="#d29922" />
+  <text x="325" y="360" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">Automated Target Exit</text>
+  <text x="325" y="380" fill="#3fb950" font-family="sans-serif" font-size="11">🎯 ₹5,000 Net Profit Hit!</text>
+  <text x="325" y="398" fill="#58a6ff" font-family="sans-serif" font-size="11">🔒 Capital Moved to Cash</text>
+  <text x="325" y="416" fill="#d29922" font-family="sans-serif" font-size="11">📊 Final Return: 10.02% Net</text>
+  <text x="325" y="434" fill="#bc8cff" font-family="sans-serif" font-size="11">🔔 WhatsApp / SMS Alert</text>
+  <path d="M 545 390 L 590 390" stroke="#d29922" stroke-width="2" />
+  <rect x="595" y="335" width="210" height="110" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="605" y="360" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">Newbie Summary</text>
+  <text x="605" y="385" fill="#f0f6fc" font-family="sans-serif" font-size="14" font-weight="bold">"You made ₹5,010!"</text>
+  <text x="605" y="410" fill="#8b949e" font-family="sans-serif" font-size="11">Gross: ₹6,520 | Tax: ₹1,356</text>
+  <text x="605" y="428" fill="#3fb950" font-family="sans-serif" font-size="11">✓ In-Hand Target Met</text>
+</svg>
