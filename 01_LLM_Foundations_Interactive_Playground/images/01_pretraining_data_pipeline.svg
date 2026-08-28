@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 180" width="100%" height="100%">
+  <rect width="820" height="180" fill="#0d1117" rx="8" />
+
+  <rect x="20" y="20" width="165" height="130" rx="6" fill="#161b22" stroke="#8b949e" />
+  <text x="30" y="45" fill="#c9d1d9" font-family="sans-serif" font-size="12" font-weight="bold">1. Raw Web Scraping</text>
+  <text x="30" y="70" fill="#8b949e" font-family="sans-serif" font-size="10">• Common Crawl</text>
+  <text x="30" y="90" fill="#8b949e" font-family="sans-serif" font-size="10">• GitHub Code</text>
+  <text x="30" y="110" fill="#8b949e" font-family="sans-serif" font-size="10">• Wikipedia &amp; Arxiv</text>
+  <text x="30" y="135" fill="#f85149" font-family="sans-serif" font-size="9">Contains Spam &amp; Dups</text>
+
+  <path d="M 190 85 L 220 85" stroke="#388bfd" stroke-width="2" />
+
+  <rect x="225" y="20" width="170" height="130" rx="6" fill="#161b22" stroke="#388bfd" />
+  <text x="235" y="45" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">2. Quality Filtering</text>
+  <text x="235" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• MinHash Deduplication</text>
+  <text x="235" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="10">• PII Redaction</text>
+  <text x="235" y="110" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Toxic content filtering</text>
+  <text x="235" y="135" fill="#3fb950" font-family="sans-serif" font-size="9">Retains Golden 15%</text>
+
+  <path d="M 400 85 L 430 85" stroke="#388bfd" stroke-width="2" />
+
+  <rect x="435" y="20" width="175" height="130" rx="6" fill="#161b22" stroke="#a371f7" />
+  <text x="445" y="45" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">3. BPE Tokenization</text>
+  <text x="445" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Subword chunking</text>
+  <text x="445" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="10">• 256k Vocabulary size</text>
+  <text x="445" y="110" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Converts text to IDs</text>
+  <text x="445" y="135" fill="#58a6ff" font-family="sans-serif" font-size="9">Numbers for GPU</text>
+
+  <path d="M 615 85 L 645 85" stroke="#238636" stroke-width="2" />
+
+  <rect x="650" y="20" width="150" height="130" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="660" y="45" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">4. Foundation Base</text>
+  <text x="660" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Trillions of tokens</text>
+  <text x="660" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="10">• World knowledge</text>
+  <text x="660" y="110" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Next-token predict</text>
+  <text x="660" y="135" fill="#3fb950" font-family="sans-serif" font-size="9">Base Pretrained Model</text>
+</svg>

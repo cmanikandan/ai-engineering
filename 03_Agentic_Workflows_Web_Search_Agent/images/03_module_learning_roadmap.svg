@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 530" width="100%" height="100%">
+  <rect width="850" height="530" fill="#0d1117" rx="10" />
+
+  <!-- Step 1: Query & Planning -->
+  <rect x="25" y="20" width="800" height="100" rx="8" fill="#161b22" stroke="#238636" stroke-width="2" />
+  <text x="45" y="45" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 1: USER RESEARCH QUERY & MULTI-HOP TASK DECOMPOSITION</text>
+
+  <rect x="45" y="55" width="220" height="50" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="55" y="75" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">👤 User Complex Query</text>
+  <text x="55" y="93" fill="#8b949e" font-family="sans-serif" font-size="11">"Compare Claude 3.7 vs Gemini 2.5"</text>
+
+  <path d="M 265 80 L 310 80" stroke="#3fb950" stroke-width="2" />
+
+  <rect x="315" y="55" width="240" height="50" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="325" y="75" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🧠 Autonomous Planner Agent</text>
+  <text x="325" y="93" fill="#c9d1d9" font-family="sans-serif" font-size="11">Breaks prompt into 3 sub-queries</text>
+
+  <path d="M 555 80 L 600 80" stroke="#3fb950" stroke-width="2" />
+
+  <rect x="605" y="55" width="200" height="50" rx="6" fill="#21262d" stroke="#d29922" />
+  <text x="615" y="75" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">📑 Sub-Task Execution List</text>
+  <text x="615" y="93" fill="#3fb950" font-family="sans-serif" font-size="11">3 Parallel Search Hops</text>
+
+  <!-- Step 2: ReAct Loop & Tools -->
+  <rect x="25" y="135" width="800" height="220" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="45" y="160" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 2: REACT TOOL EXECUTION LOOP & MODEL CONTEXT PROTOCOL (MCP)</text>
+
+  <!-- Agent Core -->
+  <rect x="45" y="175" width="220" height="165" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="55" y="200" fill="#58a6ff" font-family="sans-serif" font-size="13" font-weight="bold">🤖 Gemini ReAct Core</text>
+  <text x="55" y="225" fill="#c9d1d9" font-family="sans-serif" font-size="11">1. Reason: "Need live pricing"</text>
+  <text x="55" y="245" fill="#e3b341" font-family="sans-serif" font-size="11">2. Act: Call web_search tool</text>
+  <text x="55" y="265" fill="#3fb950" font-family="sans-serif" font-size="11">3. Observe: Read tool output</text>
+  <text x="55" y="285" fill="#bc8cff" font-family="sans-serif" font-size="11">4. Iterate or Finish</text>
+  <text x="55" y="315" fill="#ff7b72" font-family="sans-serif" font-size="11">🛡️ Self-Healing on Error</text>
+
+  <!-- Flow to Tools -->
+  <path d="M 265 210 L 330 210" stroke="#3fb950" stroke-width="2" />
+  <path d="M 265 260 L 330 260" stroke="#58a6ff" stroke-width="2" />
+  <path d="M 265 310 L 330 310" stroke="#d29922" stroke-width="2" />
+
+  <!-- Tool Boxes -->
+  <rect x="335" y="175" width="470" height="45" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="345" y="195" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">🔍 Tool 1: web_search(query="gemini 2.5 vs claude 3.7 benchmarks")</text>
+  <text x="345" y="210" fill="#8b949e" font-family="sans-serif" font-size="10">Returns: 5 verified search URLs & snippets</text>
+
+  <rect x="335" y="230" width="470" height="45" rx="6" fill="#1b2a4a" stroke="#388bfd" />
+  <text x="345" y="250" fill="#58a6ff" font-family="sans-serif" font-size="11" font-weight="bold">🌐 Tool 2: fetch_url_content(url="https://arxiv.org/abs/2026...")</text>
+  <text x="345" y="265" fill="#8b949e" font-family="sans-serif" font-size="10">Returns: Clean markdown extracted from HTML</text>
+
+  <rect x="335" y="285" width="470" height="45" rx="6" fill="#382915" stroke="#d29922" />
+  <text x="345" y="305" fill="#d29922" font-family="sans-serif" font-size="11" font-weight="bold">🔌 Tool 3: MCP Server Tool (Model Context Protocol via JSON-RPC)</text>
+  <text x="345" y="320" fill="#8b949e" font-family="sans-serif" font-size="10">Connects to Postgres DB, GitHub API, Slack, & Cloud Shell</text>
+
+  <!-- Step 3: Synthesis & Citations -->
+  <rect x="25" y="370" width="800" height="140" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="2" />
+  <text x="45" y="395" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 3: SYNTHESIS & PERPLEXITY-STYLE CITATION CARDS</text>
+
+  <rect x="45" y="410" width="220" height="85" rx="6" fill="#21262d" stroke="#a371f7" />
+  <text x="55" y="432" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">📑 Synthesizer Agent</text>
+  <text x="55" y="452" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Cross-source deduplication</text>
+  <text x="55" y="470" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Structured comparison table</text>
+  <text x="55" y="488" fill="#3fb950" font-family="sans-serif" font-size="10">Executive briefing format</text>
+
+  <path d="M 265 452 L 310 452" stroke="#a371f7" stroke-width="2" />
+
+  <rect x="315" y="410" width="240" height="85" rx="6" fill="#21262d" stroke="#238636" />
+  <text x="325" y="432" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🔗 Citation Verifier</text>
+  <text x="325" y="452" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Links every claim to [1], [2]</text>
+  <text x="325" y="470" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Guarantees zero link rot</text>
+  <text x="325" y="488" fill="#58a6ff" font-family="sans-serif" font-size="10">100% Traceable Sources</text>
+
+  <path d="M 555 452 L 600 452" stroke="#a371f7" stroke-width="2" />
+
+  <rect x="605" y="410" width="200" height="85" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="615" y="432" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🏆 Final Perplexity Dossier</text>
+  <text x="615" y="452" fill="#f0f6fc" font-family="sans-serif" font-size="11">Rich interactive answer</text>
+  <text x="615" y="470" fill="#8b949e" font-family="sans-serif" font-size="11">+ Live source cards</text>
+  <text x="615" y="488" fill="#3fb950" font-family="sans-serif" font-size="10">Production Ready</text>
+</svg>

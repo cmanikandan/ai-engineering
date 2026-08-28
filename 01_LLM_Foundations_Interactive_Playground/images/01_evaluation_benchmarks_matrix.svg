@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="100%">
+  <rect width="800" height="160" fill="#0d1117" rx="8" />
+
+  <rect x="20" y="20" width="170" height="120" rx="6" fill="#161b22" stroke="#238636" />
+  <text x="30" y="45" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">1. Academic Benchmarks</text>
+  <text x="30" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">MMLU, GSM8K, MATH</text>
+  <text x="30" y="90" fill="#8b949e" font-family="sans-serif" font-size="9">Standardized knowledge</text>
+  <text x="30" y="120" fill="#3fb950" font-family="sans-serif" font-size="9">Baseline Capability</text>
+
+  <rect x="210" y="20" width="170" height="120" rx="6" fill="#161b22" stroke="#388bfd" />
+  <text x="220" y="45" fill="#58a6ff" font-family="sans-serif" font-size="11" font-weight="bold">2. Code Benchmarks</text>
+  <text x="220" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">HumanEval, SWE-bench</text>
+  <text x="220" y="90" fill="#8b949e" font-family="sans-serif" font-size="9">Real GitHub issue fixes</text>
+  <text x="220" y="120" fill="#58a6ff" font-family="sans-serif" font-size="9">Software Engineering</text>
+
+  <rect x="400" y="20" width="185" height="120" rx="6" fill="#161b22" stroke="#a371f7" />
+  <text x="410" y="45" fill="#bc8cff" font-family="sans-serif" font-size="11" font-weight="bold">3. LLM-as-a-Judge</text>
+  <text x="410" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">Gemini 2.5 Pro Evaluator</text>
+  <text x="410" y="90" fill="#8b949e" font-family="sans-serif" font-size="9">Automated grading scale</text>
+  <text x="410" y="120" fill="#bc8cff" font-family="sans-serif" font-size="9">High-Speed QA Tests</text>
+
+  <rect x="605" y="20" width="175" height="120" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="615" y="45" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">4. Human Arena Battles</text>
+  <text x="615" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">LMSYS Chatbot Arena</text>
+  <text x="615" y="90" fill="#8b949e" font-family="sans-serif" font-size="9">Blind user A/B voting</text>
+  <text x="615" y="120" fill="#3fb950" font-family="sans-serif" font-size="9">Gold Standard Rating</text>
+</svg>

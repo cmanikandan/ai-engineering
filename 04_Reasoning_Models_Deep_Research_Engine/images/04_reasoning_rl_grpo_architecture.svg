@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <rect width="800" height="200" fill="#0d1117" rx="8" />
+
+  <rect x="20" y="20" width="220" height="160" rx="8" fill="#161b22" stroke="#8b949e" stroke-width="1.5" />
+  <text x="35" y="48" fill="#c9d1d9" font-family="sans-serif" font-size="12" font-weight="bold">1. Cold-Start Initialization</text>
+  <text x="35" y="70" fill="#8b949e" font-family="sans-serif" font-size="10">• Show a few thousand math/code traces</text>
+  <text x="35" y="90" fill="#8b949e" font-family="sans-serif" font-size="10">• Learns the thinking format:</text>
+  <rect x="35" y="105" width="190" height="35" rx="4" fill="#21262d" />
+  <text x="45" y="125" fill="#58a6ff" font-family="monospace" font-size="9">&lt;thought&gt;...&lt;/thought&gt;</text>
+  <text x="35" y="160" fill="#58a6ff" font-family="sans-serif" font-size="10">Bootstraps Format</text>
+
+  <path d="M 240 100 L 280 100" stroke="#388bfd" stroke-width="2" />
+
+  <rect x="285" y="20" width="240" height="160" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="295" y="48" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">2. Group Sampling (GRPO)</text>
+  <text x="295" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• For 1 problem, generate 5 candidate paths</text>
+  <text x="295" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Automated verifier grades correctness</text>
+  <text x="295" y="110" fill="#3fb950" font-family="sans-serif" font-size="10">✓ Path 1: Correct (Reward +1)</text>
+  <text x="295" y="128" fill="#f85149" font-family="sans-serif" font-size="10">✗ Path 2: Flawed (Reward 0)</text>
+  <text x="295" y="160" fill="#3fb950" font-family="sans-serif" font-size="10">Zero Human Labels Needed</text>
+
+  <path d="M 525 100 L 565 100" stroke="#238636" stroke-width="2" />
+
+  <rect x="570" y="20" width="210" height="160" rx="8" fill="#1f2d23" stroke="#238636" stroke-width="1.5" />
+  <text x="585" y="48" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">3. Emergent Self-Correction</text>
+  <text x="585" y="70" fill="#f0f6fc" font-family="sans-serif" font-size="10">• Model discovers backtracking</text>
+  <text x="585" y="90" fill="#f0f6fc" font-family="sans-serif" font-size="10">• "Wait, let me double check..."</text>
+  <text x="585" y="110" fill="#f0f6fc" font-family="sans-serif" font-size="10">• Discovers edge case tests</text>
+  <text x="585" y="160" fill="#3fb950" font-family="sans-serif" font-size="10" font-weight="bold">Autonomous Reasoning</text>
+</svg>

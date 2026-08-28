@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 540" width="100%" height="100%">
+  <rect width="850" height="540" fill="#0d1117" rx="10" />
+
+  <!-- Step 1 -->
+  <rect x="25" y="20" width="800" height="110" rx="8" fill="#161b22" stroke="#238636" stroke-width="2" />
+  <text x="45" y="45" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 1: MULTIMODAL INGESTION & VISUAL DECOMPOSITION</text>
+
+  <rect x="45" y="55" width="220" height="60" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="55" y="78" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">🖼️ Visual Asset Ingestion</text>
+  <text x="55" y="98" fill="#8b949e" font-family="sans-serif" font-size="11">Charts, Receipts, UI Wireframes</text>
+
+  <path d="M 265 85 L 310 85" stroke="#3fb950" stroke-width="2" />
+
+  <rect x="315" y="55" width="240" height="60" rx="6" fill="#21262d" stroke="#388bfd" />
+  <text x="325" y="78" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🧩 Spatial Patch Encoding</text>
+  <text x="325" y="98" fill="#c9d1d9" font-family="sans-serif" font-size="11">Direct RGB PIL image byte parsing</text>
+
+  <path d="M 555 85 L 600 85" stroke="#3fb950" stroke-width="2" />
+
+  <rect x="605" y="55" width="200" height="60" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="615" y="78" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">👁️ Native Multimodal</text>
+  <text x="615" y="98" fill="#8b949e" font-family="sans-serif" font-size="11">Zero external OCR needed</text>
+
+  <!-- Step 2 -->
+  <rect x="25" y="145" width="800" height="170" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="45" y="170" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 2: GEMINI 2.5 FLASH MULTIMODAL VISION DIAGNOSTICS</text>
+
+  <rect x="45" y="185" width="220" height="115" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="55" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">📊 Visual Chart QA</text>
+  <text x="55" y="230" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Anomaly spike detection</text>
+  <text x="55" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Exact coordinates & axes</text>
+  <text x="55" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Error percentage extraction</text>
+  <text x="55" y="288" fill="#3fb950" font-family="sans-serif" font-size="10">Pydantic Structured Output</text>
+
+  <path d="M 265 240 L 310 240" stroke="#58a6ff" stroke-width="2" />
+
+  <rect x="315" y="185" width="240" height="115" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="325" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🧾 Document & Receipt OCR</text>
+  <text x="325" y="230" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Vendor, date, currency</text>
+  <text x="325" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Nested line-item arrays</text>
+  <text x="325" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Tax & total reconciliation</text>
+  <text x="325" y="288" fill="#3fb950" font-family="sans-serif" font-size="10">Automated Accounting</text>
+
+  <path d="M 555 240 L 600 240" stroke="#58a6ff" stroke-width="2" />
+
+  <rect x="605" y="185" width="200" height="115" rx="6" fill="#21262d" stroke="#58a6ff" />
+  <text x="615" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🏗️ Diagram Architecture</text>
+  <text x="615" y="230" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Cloud topology parsing</text>
+  <text x="615" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• VPC security audit</text>
+  <text x="615" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Failure mode triage</text>
+  <text x="615" y="288" fill="#3fb950" font-family="sans-serif" font-size="10">System Engineering</text>
+
+  <!-- Step 3 -->
+  <rect x="25" y="330" width="800" height="185" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="2" />
+  <text x="45" y="355" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 3: AUTONOMOUS GENERATIVE CAMPAIGN AGENT (IMAGEN 3)</text>
+
+  <rect x="45" y="370" width="220" height="130" rx="6" fill="#21262d" stroke="#d29922" />
+  <text x="55" y="395" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">✍️ Campaign Copywriter</text>
+  <text x="55" y="415" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Multi-channel marketing copy</text>
+  <text x="55" y="433" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Social headlines & captions</text>
+  <text x="55" y="451" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Technical product briefing</text>
+  <text x="55" y="480" fill="#58a6ff" font-family="sans-serif" font-size="10">Target Persona Alignment</text>
+
+  <path d="M 265 435 L 310 435" stroke="#a371f7" stroke-width="2" />
+
+  <rect x="315" y="370" width="240" height="130" rx="6" fill="#21262d" stroke="#a371f7" />
+  <text x="325" y="395" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">🎨 Prompt Crafter Engine</text>
+  <text x="325" y="415" fill="#c9d1d9" font-family="sans-serif" font-size="11">• 85mm portrait lens specs</text>
+  <text x="325" y="433" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Volumetric cinematic lighting</text>
+  <text x="325" y="451" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Aspect ratio framing (16:9)</text>
+  <text x="325" y="480" fill="#3fb950" font-family="sans-serif" font-size="10">Diffusion CFG Optimization</text>
+
+  <path d="M 555 435 L 600 435" stroke="#a371f7" stroke-width="2" />
+
+  <rect x="605" y="370" width="200" height="130" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="615" y="395" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🖼️ Google Imagen 3</text>
+  <text x="615" y="415" fill="#f0f6fc" font-family="sans-serif" font-size="11">imagen-3.0-generate-002</text>
+  <text x="615" y="433" fill="#8b949e" font-family="sans-serif" font-size="11">• 4K photorealism</text>
+  <text x="615" y="451" fill="#8b949e" font-family="sans-serif" font-size="11">• Perfect textures & hands</text>
+  <text x="615" y="480" fill="#3fb950" font-family="sans-serif" font-size="10">🏆 Production Ready Asset</text>
+</svg>

@@ -14,45 +14,9 @@
 
 In traditional software, we write deterministic code (`if / else`). In ML Research, scientists train raw foundation models on supercomputers. **Applied AI Engineering** is the practical bridge:
 
-<div style="background-color: #0d1117; padding: 20px; border-radius: 12px; border: 1px solid #30363d; margin: 15px 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="100%">
-  <rect width="850" height="180" fill="#0d1117" rx="8" />
-
-  <!-- Box 1: Researcher -->
-  <rect x="20" y="20" width="240" height="140" rx="8" fill="#161b22" stroke="#8b949e" stroke-width="1.5" />
-  <text x="35" y="48" fill="#c9d1d9" font-family="sans-serif" font-size="13" font-weight="bold">🔬 ML / AI Researcher</text>
-  <text x="35" y="75" fill="#8b949e" font-family="sans-serif" font-size="11">• Trains base foundation models</text>
-  <text x="35" y="95" fill="#8b949e" font-family="sans-serif" font-size="11">• Manages 10,000 GPU clusters</text>
-  <text x="35" y="115" fill="#8b949e" font-family="sans-serif" font-size="11">• Optimizes mathematical loss</text>
-  <text x="35" y="140" fill="#58a6ff" font-family="sans-serif" font-size="10">Focus: Training Compute</text>
-
-  <!-- Arrow 1 -->
-  <path d="M 265 90 L 295 90" stroke="#388bfd" stroke-width="2" />
-  <polygon points="295,85 305,90 295,95" fill="#388bfd" />
-
-  <!-- Box 2: Applied AI Engineer (YOU) -->
-  <rect x="310" y="15" width="250" height="150" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="2.5" />
-  <rect x="320" y="25" width="130" height="22" rx="4" fill="#238636" />
-  <text x="385" y="40" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PRIMARY FOCUS</text>
-  <text x="325" y="68" fill="#3fb950" font-family="sans-serif" font-size="13" font-weight="bold">⚡ Applied AI Engineer (YOU)</text>
-  <text x="325" y="90" fill="#f0f6fc" font-family="sans-serif" font-size="11">• Builds reliable software with LLMs</text>
-  <text x="325" y="110" fill="#f0f6fc" font-family="sans-serif" font-size="11">• Implements RAG, Agents &amp; Tools</text>
-  <text x="325" y="130" fill="#f0f6fc" font-family="sans-serif" font-size="11">• Deploys scalable APIs on Cloud Run</text>
-  <text x="325" y="152" fill="#3fb950" font-family="sans-serif" font-size="10" font-weight="bold">Goal: Enterprise Value &amp; Reliability</text>
-
-  <!-- Arrow 2 -->
-  <path d="M 565 90 L 595 90" stroke="#388bfd" stroke-width="2" />
-  <polygon points="595,85 605,90 595,95" fill="#388bfd" />
-
-  <!-- Box 3: End Users & Business -->
-  <rect x="610" y="20" width="220" height="140" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.5" />
-  <text x="625" y="48" fill="#d29922" font-family="sans-serif" font-size="13" font-weight="bold">👥 Business &amp; End Users</text>
-  <text x="625" y="75" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Instant, accurate responses</text>
-  <text x="625" y="95" fill="#c9d1d9" font-family="sans-serif" font-size="11">• SRE automated triage</text>
-  <text x="625" y="115" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Enterprise compliance &amp; safety</text>
-  <text x="625" y="140" fill="#3fb950" font-family="sans-serif" font-size="10">Outcome: High ROI</text>
-</svg>
-</div>
+<p align="center">
+  <img src="./images/readme_ai_engineering_spectrum.png" alt="readme_ai_engineering_spectrum" width="100%" />
+</p>
 
 | Role | Primary Toolset | Focus | Goal |
 | :--- | :--- | :--- | :--- |
@@ -64,102 +28,9 @@ In traditional software, we write deterministic code (`if / else`). In ML Resear
 
 ## 🏛️ Master Curriculum & System Architecture
 
-<div style="background-color: #0d1117; padding: 20px; border-radius: 12px; border: 1px solid #30363d; margin: 15px 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" height="100%">
-  <!-- Background -->
-  <rect width="900" height="620" fill="#0d1117" rx="10" />
-
-  <!-- Top Banner -->
-  <rect x="25" y="20" width="850" height="50" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="1.5" />
-  <text x="450" y="52" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="16" font-weight="bold" text-anchor="middle">APPLIED AI ENGINEERING MASTERCLASS ARCHITECTURE</text>
-
-  <!-- Row 1: Modules 1, 2, 3 -->
-  <!-- Module 1 -->
-  <rect x="25" y="90" width="270" height="150" rx="8" fill="#161b22" stroke="#238636" stroke-width="2" />
-  <rect x="35" y="100" width="100" height="24" rx="4" fill="#238636" />
-  <text x="85" y="116" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 01</text>
-  <text x="35" y="145" fill="#3fb950" font-family="sans-serif" font-size="13" font-weight="bold">Core Foundations &amp; Studio</text>
-  <text x="35" y="168" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Autoregressive Next-Token BPE</text>
-  <text x="35" y="188" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Temperature &amp; Top-p Sampling</text>
-  <text x="35" y="208" fill="#c9d1d9" font-family="sans-serif" font-size="11">• SFT, DPO &amp; GRPO Alignment</text>
-  <text x="35" y="228" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Interactive AI Studio</text>
-
-  <!-- Module 2 -->
-  <rect x="315" y="90" width="270" height="150" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
-  <rect x="325" y="100" width="100" height="24" rx="4" fill="#1f6feb" />
-  <text x="375" y="116" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 02</text>
-  <text x="325" y="145" fill="#58a6ff" font-family="sans-serif" font-size="13" font-weight="bold">Enterprise Knowledge RAG</text>
-  <text x="325" y="168" fill="#c9d1d9" font-family="sans-serif" font-size="11">• text-embedding-004 Dense</text>
-  <text x="325" y="188" fill="#c9d1d9" font-family="sans-serif" font-size="11">• BM25 Sparse Keyword Index</text>
-  <text x="325" y="208" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Reciprocal Rank Fusion (RRF)</text>
-  <text x="325" y="228" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Grounded Knowledge Assistant</text>
-
-  <!-- Module 3 -->
-  <rect x="605" y="90" width="270" height="150" rx="8" fill="#161b22" stroke="#d29922" stroke-width="2" />
-  <rect x="615" y="100" width="100" height="24" rx="4" fill="#9e6a03" />
-  <text x="665" y="116" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 03</text>
-  <text x="615" y="145" fill="#e3b341" font-family="sans-serif" font-size="13" font-weight="bold">Agentic Web Research</text>
-  <text x="615" y="168" fill="#c9d1d9" font-family="sans-serif" font-size="11">• ReAct Loops &amp; Self-Correction</text>
-  <text x="615" y="188" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Native Gemini Tool Calling</text>
-  <text x="615" y="208" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Model Context Protocol (MCP)</text>
-  <text x="615" y="228" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Autonomous Research Agent</text>
-
-  <!-- Row 2: Modules 4, 5, 6 -->
-  <!-- Module 4 -->
-  <rect x="25" y="260" width="270" height="150" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="2" />
-  <rect x="35" y="270" width="100" height="24" rx="4" fill="#8957e5" />
-  <text x="85" y="286" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 04</text>
-  <text x="35" y="315" fill="#bc8cff" font-family="sans-serif" font-size="13" font-weight="bold">Cognitive Deep Research</text>
-  <text x="35" y="338" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Gemini Thinking Budget CoT</text>
-  <text x="35" y="358" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Best-of-N &amp; Tree of Thoughts</text>
-  <text x="35" y="378" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Recursive Tree Exploration</text>
-  <text x="35" y="398" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Deep Research Engine</text>
-
-  <!-- Module 5 -->
-  <rect x="315" y="260" width="270" height="150" rx="8" fill="#161b22" stroke="#f85149" stroke-width="2" />
-  <rect x="325" y="270" width="100" height="24" rx="4" fill="#da3633" />
-  <text x="375" y="286" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 05</text>
-  <text x="325" y="315" fill="#ff7b72" font-family="sans-serif" font-size="13" font-weight="bold">Multimodal Media Studio</text>
-  <text x="325" y="338" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Diffusion Denoising Mechanics</text>
-  <text x="325" y="358" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Gemini 2.5 Flash Vision QA</text>
-  <text x="325" y="378" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Google Imagen 3 Synthesis</text>
-  <text x="325" y="398" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Creative Campaign Studio</text>
-
-  <!-- Module 6 -->
-  <rect x="605" y="260" width="270" height="150" rx="8" fill="#161b22" stroke="#2ea043" stroke-width="2" />
-  <rect x="615" y="270" width="100" height="24" rx="4" fill="#238636" />
-  <text x="665" y="286" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MODULE 06</text>
-  <text x="615" y="315" fill="#3fb950" font-family="sans-serif" font-size="13" font-weight="bold">Tokenomics &amp; LLM Gateway</text>
-  <text x="615" y="338" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Input/Output/Cached Economics</text>
-  <text x="615" y="358" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Gemini Context Caching (75% off)</text>
-  <text x="615" y="378" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Dynamic 3-Tier Model Router</text>
-  <text x="615" y="398" fill="#8b949e" font-family="sans-serif" font-size="11">🛠️ Enterprise Router with Fallbacks</text>
-
-  <!-- Capstone Module 7 Banner -->
-  <rect x="25" y="430" width="850" height="160" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="2.5" />
-  <rect x="35" y="442" width="170" height="26" rx="4" fill="#8957e5" />
-  <text x="120" y="460" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">MODULE 07 (CAPSTONE)</text>
-  <text x="220" y="461" fill="#bc8cff" font-family="sans-serif" font-size="15" font-weight="bold">OmniOps AI: Autonomous Multimodal Incident SRE Platform</text>
-  
-  <rect x="45" y="480" width="245" height="95" rx="6" fill="#21262d" />
-  <text x="55" y="502" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🔍 Incident Ingestion &amp; RAG</text>
-  <text x="55" y="522" fill="#8b949e" font-family="sans-serif" font-size="11">• Grafana dashboard vision triage</text>
-  <text x="55" y="540" fill="#8b949e" font-family="sans-serif" font-size="11">• Hybrid Runbook ChromaDB KB</text>
-  <text x="55" y="558" fill="#8b949e" font-family="sans-serif" font-size="11">• Automated SLA credit calculation</text>
-
-  <rect x="310" y="480" width="270" height="95" rx="6" fill="#21262d" />
-  <text x="320" y="502" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🧠 Thinking &amp; ReAct Remediation</text>
-  <text x="320" y="522" fill="#8b949e" font-family="sans-serif" font-size="11">• Gemini Thinking root-cause RCA</text>
-  <text x="320" y="540" fill="#8b949e" font-family="sans-serif" font-size="11">• Automated Cloud Run scale tools</text>
-  <text x="320" y="558" fill="#8b949e" font-family="sans-serif" font-size="11">• Multi-agent FinOps budget gate</text>
-
-  <rect x="600" y="480" width="260" height="95" rx="6" fill="#21262d" />
-  <text x="610" y="502" fill="#e3b341" font-family="sans-serif" font-size="12" font-weight="bold">☁️ Cloud Run Production Deploy</text>
-  <text x="610" y="522" fill="#8b949e" font-family="sans-serif" font-size="11">• Containerized FastAPI service</text>
-  <text x="610" y="540" fill="#8b949e" font-family="sans-serif" font-size="11">• Imagen 3 topology generation</text>
-  <text x="610" y="558" fill="#8b949e" font-family="sans-serif" font-size="11">• Single-command bash deploy</text>
-</svg>
-</div>
+<p align="center">
+  <img src="./images/readme_masterclass_system_architecture.png" alt="readme_masterclass_system_architecture" width="100%" />
+</p>
 
 ---
 

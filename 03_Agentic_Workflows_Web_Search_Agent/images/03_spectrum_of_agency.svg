@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" width="100%" height="100%">
+  <rect width="820" height="200" fill="#0d1117" rx="8" />
+
+  <text x="410" y="30" fill="#58a6ff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">THE SPECTRUM OF AGENCY (Deterministic ◄──────► Autonomous)</text>
+
+  <rect x="20" y="45" width="145" height="135" rx="6" fill="#161b22" stroke="#8b949e" />
+  <text x="30" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="11" font-weight="bold">1. Chaining</text>
+  <text x="30" y="95" fill="#8b949e" font-family="sans-serif" font-size="9">• Step A ──► Step B</text>
+  <text x="30" y="115" fill="#8b949e" font-family="sans-serif" font-size="9">• Fixed pipeline</text>
+  <text x="30" y="135" fill="#8b949e" font-family="sans-serif" font-size="9">• Zero branch choice</text>
+  <text x="30" y="165" fill="#8b949e" font-family="sans-serif" font-size="9">Deterministic</text>
+
+  <rect x="175" y="45" width="145" height="135" rx="6" fill="#161b22" stroke="#388bfd" />
+  <text x="185" y="70" fill="#58a6ff" font-family="sans-serif" font-size="11" font-weight="bold">2. Routing</text>
+  <text x="185" y="95" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Fast intent check</text>
+  <text x="185" y="115" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Picks path A or B</text>
+  <text x="185" y="135" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Single decision point</text>
+  <text x="185" y="165" fill="#58a6ff" font-family="sans-serif" font-size="9">Classified Flow</text>
+
+  <rect x="330" y="45" width="155" height="135" rx="6" fill="#161b22" stroke="#a371f7" />
+  <text x="340" y="70" fill="#bc8cff" font-family="sans-serif" font-size="11" font-weight="bold">3. Parallel Exec</text>
+  <text x="340" y="95" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Fan-out N queries</text>
+  <text x="340" y="115" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Run sub-tasks</text>
+  <text x="340" y="135" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Aggregate results</text>
+  <text x="340" y="165" fill="#bc8cff" font-family="sans-serif" font-size="9">High Throughput</text>
+
+  <rect x="495" y="45" width="150" height="135" rx="6" fill="#161b22" stroke="#d29922" />
+  <text x="505" y="70" fill="#d29922" font-family="sans-serif" font-size="11" font-weight="bold">4. Evaluator Loop</text>
+  <text x="505" y="95" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Generate output</text>
+  <text x="505" y="115" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Critic grades quality</text>
+  <text x="505" y="135" fill="#c9d1d9" font-family="sans-serif" font-size="9">• Refines until pass</text>
+  <text x="505" y="165" fill="#d29922" font-family="sans-serif" font-size="9">Self-Correction</text>
+
+  <rect x="655" y="45" width="145" height="135" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="665" y="70" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">5. ReAct Agent</text>
+  <text x="665" y="95" fill="#f0f6fc" font-family="sans-serif" font-size="9">• Reason ──► Act</text>
+  <text x="665" y="115" fill="#f0f6fc" font-family="sans-serif" font-size="9">• Observe output</text>
+  <text x="665" y="135" fill="#f0f6fc" font-family="sans-serif" font-size="9">• Autonomous loops</text>
+  <text x="665" y="165" fill="#3fb950" font-family="sans-serif" font-size="9" font-weight="bold">Fully Autonomous</text>
+</svg>

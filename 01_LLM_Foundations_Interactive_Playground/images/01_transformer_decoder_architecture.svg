@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <rect width="800" height="320" fill="#0d1117" rx="8" />
+
+  <rect x="20" y="20" width="760" height="280" rx="8" fill="#161b22" stroke="#388bfd" stroke-width="2" />
+  <text x="40" y="48" fill="#58a6ff" font-family="sans-serif" font-size="13" font-weight="bold">INSIDE A TRANSFORMER DECODER LAYER (Repeated 30-80x)</text>
+
+  <!-- RMSNorm 1 -->
+  <rect x="40" y="65" width="200" height="40" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="55" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="11">1. RMSNorm (Stabilization)</text>
+
+  <path d="M 240 85 L 280 85" stroke="#388bfd" stroke-width="2" />
+
+  <!-- Multi-Head Attention -->
+  <rect x="285" y="65" width="260" height="75" rx="6" fill="#1b2a4a" stroke="#388bfd" />
+  <text x="295" y="90" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">2. Self-Attention / GQA + RoPE</text>
+  <text x="295" y="110" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Queries ($Q$) find matching Keys ($K$)</text>
+  <text x="295" y="128" fill="#3fb950" font-family="sans-serif" font-size="10">⚡ KV-Cache: O(1) Token Decoding</text>
+
+  <path d="M 545 85 L 585 85" stroke="#388bfd" stroke-width="2" />
+
+  <!-- Residual 1 -->
+  <rect x="590" y="65" width="170" height="40" rx="6" fill="#21262d" stroke="#3fb950" />
+  <text x="600" y="90" fill="#3fb950" font-family="sans-serif" font-size="11">Residual Add (+)</text>
+
+  <!-- Flow to lower block -->
+  <path d="M 675 105 L 675 165 L 140 165 L 140 190" stroke="#388bfd" stroke-width="2" fill="none" />
+
+  <!-- RMSNorm 2 -->
+  <rect x="40" y="195" width="200" height="40" rx="6" fill="#21262d" stroke="#30363d" />
+  <text x="55" y="220" fill="#c9d1d9" font-family="sans-serif" font-size="11">3. RMSNorm (Stabilization)</text>
+
+  <path d="M 240 215 L 280 215" stroke="#d29922" stroke-width="2" />
+
+  <!-- MoE / FeedForward -->
+  <rect x="285" y="180" width="260" height="75" rx="6" fill="#382915" stroke="#d29922" />
+  <text x="295" y="205" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">4. FeedForward / MoE Experts</text>
+  <text x="295" y="225" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Deep world knowledge storage</text>
+  <text x="295" y="243" fill="#8b949e" font-family="sans-serif" font-size="10">• Top-k sparse routing to experts</text>
+
+  <path d="M 545 215 L 585 215" stroke="#d29922" stroke-width="2" />
+
+  <!-- Residual 2 -->
+  <rect x="590" y="195" width="170" height="40" rx="6" fill="#1f2d23" stroke="#238636" />
+  <text x="600" y="220" fill="#3fb950" font-family="sans-serif" font-size="11">Logits Head ──►</text>
+</svg>
