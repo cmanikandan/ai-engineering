@@ -4,7 +4,7 @@
 
   <!-- Step 1 -->
   <rect x="25" y="20" width="800" height="110" rx="8" fill="#161b22" stroke="#238636" stroke-width="2" />
-  <text x="45" y="45" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 1: MULTIMODAL INGESTION & VISUAL DECOMPOSITION</text>
+  <text x="45" y="45" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">STEP 1: MULTIMODAL INGESTION &amp; VISUAL DECOMPOSITION</text>
 
   <rect x="45" y="55" width="220" height="60" rx="6" fill="#21262d" stroke="#30363d" />
   <text x="55" y="78" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">🖼️ Visual Asset Ingestion</text>
@@ -29,17 +29,17 @@
   <rect x="45" y="185" width="220" height="115" rx="6" fill="#21262d" stroke="#58a6ff" />
   <text x="55" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">📊 Visual Chart QA</text>
   <text x="55" y="230" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Anomaly spike detection</text>
-  <text x="55" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Exact coordinates & axes</text>
+  <text x="55" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Exact coordinates &amp; axes</text>
   <text x="55" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Error percentage extraction</text>
   <text x="55" y="288" fill="#3fb950" font-family="sans-serif" font-size="10">Pydantic Structured Output</text>
 
   <path d="M 265 240 L 310 240" stroke="#58a6ff" stroke-width="2" />
 
   <rect x="315" y="185" width="240" height="115" rx="6" fill="#21262d" stroke="#58a6ff" />
-  <text x="325" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🧾 Document & Receipt OCR</text>
+  <text x="325" y="210" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🧾 Document &amp; Receipt OCR</text>
   <text x="325" y="230" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Vendor, date, currency</text>
   <text x="325" y="250" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Nested line-item arrays</text>
-  <text x="325" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Tax & total reconciliation</text>
+  <text x="325" y="270" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Tax &amp; total reconciliation</text>
   <text x="325" y="288" fill="#3fb950" font-family="sans-serif" font-size="10">Automated Accounting</text>
 
   <path d="M 555 240 L 600 240" stroke="#58a6ff" stroke-width="2" />
@@ -58,7 +58,7 @@
   <rect x="45" y="370" width="220" height="130" rx="6" fill="#21262d" stroke="#d29922" />
   <text x="55" y="395" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">✍️ Campaign Copywriter</text>
   <text x="55" y="415" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Multi-channel marketing copy</text>
-  <text x="55" y="433" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Social headlines & captions</text>
+  <text x="55" y="433" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Social headlines &amp; captions</text>
   <text x="55" y="451" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Technical product briefing</text>
   <text x="55" y="480" fill="#58a6ff" font-family="sans-serif" font-size="10">Target Persona Alignment</text>
 
@@ -77,6 +77,6 @@
   <text x="615" y="395" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🖼️ Google Imagen 3</text>
   <text x="615" y="415" fill="#f0f6fc" font-family="sans-serif" font-size="11">imagen-3.0-generate-002</text>
   <text x="615" y="433" fill="#8b949e" font-family="sans-serif" font-size="11">• 4K photorealism</text>
-  <text x="615" y="451" fill="#8b949e" font-family="sans-serif" font-size="11">• Perfect textures & hands</text>
+  <text x="615" y="451" fill="#8b949e" font-family="sans-serif" font-size="11">• Perfect textures &amp; hands</text>
   <text x="615" y="480" fill="#3fb950" font-family="sans-serif" font-size="10">🏆 Production Ready Asset</text>
 </svg>
