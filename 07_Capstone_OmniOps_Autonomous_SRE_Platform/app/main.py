@@ -130,7 +130,7 @@ RUNBOOK CONTEXT:
 Execute simulated remediation: scale Cloud Run memory to 2Gi and instances to 200.
 """
         resp = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.7-flash",
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -161,7 +161,7 @@ Identify:
 3. Recommended remediation steps
 """
         resp = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.7-flash",
             contents=[pil_img, prompt],
             config=types.GenerateContentConfig(temperature=0.0)
         )
