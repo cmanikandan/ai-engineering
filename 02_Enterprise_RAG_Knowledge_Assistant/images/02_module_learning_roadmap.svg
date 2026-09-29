@@ -26,7 +26,7 @@
   <!-- Dual Indexes -->
   <rect x="500" y="55" width="145" height="42" rx="6" fill="#1b2a4a" stroke="#388bfd" />
   <text x="510" y="73" fill="#58a6ff" font-family="sans-serif" font-size="11" font-weight="bold">💾 Dense Vector DB</text>
-  <text x="510" y="88" fill="#8b949e" font-family="sans-serif" font-size="10">text-embedding-004</text>
+  <text x="510" y="88" fill="#8b949e" font-family="sans-serif" font-size="10">gemini-embedding-2</text>
 
   <rect x="500" y="113" width="145" height="42" rx="6" fill="#382915" stroke="#d29922" />
   <text x="510" y="131" fill="#d29922" font-family="sans-serif" font-size="11" font-weight="bold">📑 Sparse BM25 Index</text>
@@ -75,7 +75,7 @@
   <text x="45" y="425" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">GROUNDED GENERATION &amp; FACTUAL VERIFICATION</text>
 
   <rect x="45" y="440" width="230" height="85" rx="6" fill="#21262d" stroke="#a371f7" />
-  <text x="55" y="465" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">🤖 Gemini 2.5 Flash</text>
+  <text x="55" y="465" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">🤖 Gemini 3.8 Flash</text>
   <text x="55" y="485" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Strict grounding prompt</text>
   <text x="55" y="503" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Pydantic JSON schema</text>
   <text x="55" y="518" fill="#8b949e" font-family="sans-serif" font-size="10">Temp = 0.0 (Zero Guessing)</text>

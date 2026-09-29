@@ -14,7 +14,7 @@
 
   <!-- Core Agentic Brain -->
   <rect x="30" y="205" width="940" height="230" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="2" />
-  <text x="50" y="235" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 2.7 FLASH &amp; 3.7 THINKING MULTI-AGENT SWARM (ADK)</text>
+  <text x="50" y="235" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 3.8 FLASH &amp; 3.1 PRO THINKING MULTI-AGENT SWARM (ADK)</text>
 
   <!-- Agent 1 -->
   <rect x="50" y="255" width="205" height="160" rx="6" fill="#21262d" stroke="#30363d" />
@@ -22,7 +22,7 @@
   <text x="65" y="305" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Parses Capital (₹50k)</text>
   <text x="65" y="325" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Extracts Net ROI (10%)</text>
   <text x="65" y="345" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Sets Horizon (60 Days)</text>
-  <text x="65" y="380" fill="#3fb950" font-family="sans-serif" font-size="10">⚡ Gemini 2.7 Flash</text>
+  <text x="65" y="380" fill="#3fb950" font-family="sans-serif" font-size="10">⚡ Gemini 3.8 Flash</text>
 
   <!-- Agent 2 -->
   <rect x="275" y="255" width="205" height="160" rx="6" fill="#21262d" stroke="#30363d" />
@@ -38,7 +38,7 @@
   <text x="515" y="305" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Screens Nifty 100 / ETFs</text>
   <text x="515" y="325" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Momentum &amp; Breakouts</text>
   <text x="515" y="345" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Low Beta Basket Selection</text>
-  <text x="515" y="380" fill="#a371f7" font-family="sans-serif" font-size="10">🧠 Gemini 3.7 Thinking</text>
+  <text x="515" y="380" fill="#a371f7" font-family="sans-serif" font-size="10">🧠 Gemini 3.8 Thinking</text>
 
   <!-- Agent 4 -->
   <rect x="725" y="255" width="225" height="160" rx="6" fill="#21262d" stroke="#30363d" />

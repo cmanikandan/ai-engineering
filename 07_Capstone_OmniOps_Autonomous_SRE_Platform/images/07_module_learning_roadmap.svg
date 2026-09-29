@@ -15,7 +15,7 @@
   <path d="M 265 105 L 310 105" stroke="#3fb950" stroke-width="2" />
 
   <rect x="315" y="58" width="240" height="95" rx="6" fill="#21262d" stroke="#388bfd" />
-  <text x="325" y="80" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">👁️ Gemini 2.5 Flash Vision</text>
+  <text x="325" y="80" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">👁️ Gemini 3.8 Flash Vision</text>
   <text x="325" y="100" fill="#c9d1d9" font-family="sans-serif" font-size="11">• OCR extracts spike time (14:32)</text>
   <text x="325" y="118" fill="#c9d1d9" font-family="sans-serif" font-size="11">• Detects 94% CPU &amp; 14% 503s</text>
   <text x="325" y="136" fill="#3fb950" font-family="sans-serif" font-size="10">Structured Anomaly JSON</text>
@@ -30,7 +30,7 @@
 
   <!-- Layer 2: Thinking Supervisor &amp; Reasoning -->
   <rect x="25" y="190" width="800" height="190" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="2" />
-  <text x="45" y="215" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">LAYER 2: GEMINI 3.7 THINKING SUPERVISOR &amp; AUTONOMOUS REMEDIATION</text>
+  <text x="45" y="215" fill="#bc8cff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="13" font-weight="bold">LAYER 2: GEMINI 3.8 FLASH THINKING SUPERVISOR &amp; REMEDIATION</text>
 
   <rect x="45" y="230" width="260" height="135" rx="6" fill="#21262d" stroke="#a371f7" />
   <text x="55" y="255" fill="#bc8cff" font-family="sans-serif" font-size="13" font-weight="bold">🧠 Thinking Supervisor CoT</text>

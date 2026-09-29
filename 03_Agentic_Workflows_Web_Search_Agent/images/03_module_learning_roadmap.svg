@@ -8,7 +8,7 @@
 
   <rect x="45" y="55" width="220" height="50" rx="6" fill="#21262d" stroke="#30363d" />
   <text x="55" y="75" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">👤 User Complex Query</text>
-  <text x="55" y="93" fill="#8b949e" font-family="sans-serif" font-size="11">"Compare Claude 3.7 vs Gemini 2.5"</text>
+  <text x="55" y="93" fill="#8b949e" font-family="sans-serif" font-size="11">"Compare Claude 3.7 vs Gemini 3.8"</text>
 
   <path d="M 265 80 L 310 80" stroke="#3fb950" stroke-width="2" />
 
@@ -42,7 +42,7 @@
 
   <!-- Tool Boxes -->
   <rect x="335" y="175" width="470" height="45" rx="6" fill="#1f2d23" stroke="#238636" />
-  <text x="345" y="195" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">🔍 Tool 1: web_search(query="gemini 2.5 vs claude 3.7 benchmarks")</text>
+  <text x="345" y="195" fill="#3fb950" font-family="sans-serif" font-size="11" font-weight="bold">🔍 Tool 1: web_search(query="gemini 3.8 vs claude 3.7 benchmarks")</text>
   <text x="345" y="210" fill="#8b949e" font-family="sans-serif" font-size="10">Returns: 5 verified search URLs &amp; snippets</text>
 
   <rect x="335" y="230" width="470" height="45" rx="6" fill="#1b2a4a" stroke="#388bfd" />

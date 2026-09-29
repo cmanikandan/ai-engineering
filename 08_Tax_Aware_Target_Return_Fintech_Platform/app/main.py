@@ -1,6 +1,6 @@
 """
 WealthPulse AI: Autonomous Tax-Aware Target-Return FinTech Copilot Backend.
-Powered by Gemini 2.7 Flash & 3.7 Thinking with Zerodha Kite & Razorpay MCP Servers.
+Powered by Gemini 3.8 Flash & Gemini 3.1 Pro with DhanHQ, Zerodha Kite & Razorpay MCP Servers.
 Includes Interactive Web UI Dashboard, JWT Authentication, and Intraday (EOD) Trading Logic.
 """
 
@@ -73,7 +73,7 @@ def onboard_and_execute(req: NewbieInvestPrompt):
     """
     Zero-Friction Newbie Autopilot:
     1. Ingests raw natural language (e.g. 'Loaded 1L in zerodha, need profit by end of day').
-    2. Uses Gemini 2.7 Flash to extract intent & timeframe.
+    2. Uses Gemini 3.8 Flash to extract intent & timeframe.
     3. Handles Intraday (MIS + 3:15 PM Square-off) vs Swing (CNC + Section 111A STCG 20.8%).
     4. Pings Zerodha Kite & Razorpay MCP servers.
     5. Dispatches GTT orders with 1% stop-loss protection.
@@ -90,7 +90,7 @@ User Prompt: "{req.user_prompt}"
 """
     try:
         parsed_res = client.models.generate_content(
-            model="gemini-2.7-flash",
+            model="gemini-3.8-flash",
             contents=parse_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",

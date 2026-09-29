@@ -20,7 +20,7 @@
 
   <rect x="600" y="20" width="180" height="120" rx="6" fill="#161b22" stroke="#a371f7" />
   <text x="610" y="48" fill="#bc8cff" font-family="sans-serif" font-size="12" font-weight="bold">Google GenAI API</text>
-  <text x="610" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Gemini 2.5 / 3.7</text>
+  <text x="610" y="70" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Gemini 3.8 / 3.1 Pro</text>
   <text x="610" y="90" fill="#c9d1d9" font-family="sans-serif" font-size="10">• Thinking Tokens</text>
   <text x="610" y="120" fill="#bc8cff" font-family="sans-serif" font-size="10">Streaming Output</text>
 </svg>

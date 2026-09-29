@@ -1,7 +1,7 @@
 # 🚀 Applied AI Engineering Masterclass: Building Enterprise AI Systems with Google Gemini & Google Cloud
 
-[![Google GenAI SDK](https://img.shields.io/badge/SDK-google--genai%20v1.0+-blue.svg)](https://github.com/googleapis/python-genai)
-[![Models](https://img.shields.io/badge/Models-Gemini%202.7%20%7C%20Gemini%203.7%20%7C%20Imagen%203-orange.svg)](https://ai.google.dev)
+[![Google GenAI SDK](https://img.shields.io/badge/SDK-google--genai%20v2.3+-blue.svg)](https://github.com/googleapis/python-genai)
+[![Models](https://img.shields.io/badge/Models-Gemini%203.8%20Flash%20%7C%20Gemini%203.1%20Pro%20%7C%20Nano%20Banana%20Pro-orange.svg)](https://ai.google.dev)
 [![Deployment](https://img.shields.io/badge/Cloud-Google%20Cloud%20Run-blue.svg)](https://cloud.google.com/run)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
@@ -38,14 +38,14 @@ In traditional software, we write deterministic code (`if / else`). In ML Resear
 
 | Module | Notebook Link | Core Capabilities Mastered |
 | :--- | :--- | :--- |
-| **01. Core Foundations** | [`01_LLM_Foundations_Interactive_Playground.ipynb`](./01_LLM_Foundations_Interactive_Playground/01_LLM_Foundations_Interactive_Playground.ipynb) | Next-token prediction, BPE tokenization, Temperature/Top-p sampling dials, Post-training (SFT, DPO, GRPO), and an **interactive streaming AI studio**. |
-| **02. Knowledge RAG** | [`02_Enterprise_RAG_Knowledge_Assistant.ipynb`](./02_Enterprise_RAG_Knowledge_Assistant/02_Enterprise_RAG_Knowledge_Assistant.ipynb) | Embeddings (`text-embedding-004`), semantic chunking, dense + sparse BM25 hybrid search via Reciprocal Rank Fusion (RRF), and a **grounded knowledge assistant**. |
-| **03. Agentic Workflows** | [`03_Agentic_Workflows_Web_Search_Agent.ipynb`](./03_Agentic_Workflows_Web_Search_Agent/03_Agentic_Workflows_Web_Search_Agent.ipynb) | Agency spectrum, workflow patterns (Routing, Reflection, Parallelism), native Gemini tool calling, Model Context Protocol (MCP), and an **autonomous research agent**. |
-| **04. Cognitive Reasoning**| [`04_Reasoning_Models_Deep_Research_Engine.ipynb`](./04_Reasoning_Models_Deep_Research_Engine/04_Reasoning_Models_Deep_Research_Engine.ipynb) | System 1 vs System 2 thinking, Gemini Thinking tokens (`thinking_budget`), test-time compute scaling (Best-of-N, Tree-of-Thoughts), and an **autonomous Deep Research engine**. |
-| **05. Multimodal Vision** | [`05_Multimodal_Vision_Media_Synthesis_Agent.ipynb`](./05_Multimodal_Vision_Media_Synthesis_Agent/05_Multimodal_Vision_Media_Synthesis_Agent.ipynb) | Diffusion denoising mechanics, visual inspection with Gemini 3.7 | Gemini 2.7 Flash, photorealistic image synthesis with **Google Imagen 3**, and a **creative campaign studio**. |
-| **06. Tokenomics & Gateway** | [`06_Tokenomics_Cost_Optimization_LLM_Gateway.ipynb`](./06_Tokenomics_Cost_Optimization_LLM_Gateway/06_Tokenomics_Cost_Optimization_LLM_Gateway.ipynb) | Input/Output/Cached token economics, Gemini Context Caching (75-90% off), Dynamic 3-Tier Model Router (Flash Lite vs Flash vs Pro), fallback cascades, and live cost telemetry. |
-| **07. Capstone SRE** | [`07_Capstone_OmniOps_Autonomous_SRE_Platform.ipynb`](./07_Capstone_OmniOps_Autonomous_SRE_Platform/07_Capstone_OmniOps_Autonomous_SRE_Platform.ipynb) | Autonomous incident triage platform uniting RAG + Vision + Thinking + Tools, packaged as a **FastAPI backend** on **Google Cloud Run**. |
-| **08. FinTech Copilot** | [`08_Tax_Aware_Target_Return_Fintech_Platform.ipynb`](./08_Tax_Aware_Target_Return_Fintech_Platform/08_Tax_Aware_Target_Return_Fintech_Platform.ipynb) | Consumer wealth copilot with **Zerodha Kite MCP** + **Razorpay MCP**, Newbie Zero-Friction onboarding, **Section 111A Indian STCG (20.8%) tax hurdle engine**, GTT trailing stop-loss, and tax-loss harvesting. |
+| **01. Core Foundations** | [`01_LLM_Foundations_Interactive_Playground.ipynb`](./01_LLM_Foundations_Interactive_Playground/01_LLM_Foundations_Interactive_Playground.ipynb) | Next-token prediction, BPE tokenization, Temperature/Top-p sampling dials, Post-training (SFT, DPO, GRPO), and an **interactive streaming AI studio** (`gemini-3.8-flash` & `gemini-3.1-pro-preview`). |
+| **02. Knowledge RAG** | [`02_Enterprise_RAG_Knowledge_Assistant.ipynb`](./02_Enterprise_RAG_Knowledge_Assistant/02_Enterprise_RAG_Knowledge_Assistant.ipynb) | Multimodal & text embeddings (`gemini-embedding-2`), semantic chunking, dense + sparse BM25 hybrid search via Reciprocal Rank Fusion (RRF), and a **grounded knowledge assistant**. |
+| **03. Agentic Workflows** | [`03_Agentic_Workflows_Web_Search_Agent.ipynb`](./03_Agentic_Workflows_Web_Search_Agent/03_Agentic_Workflows_Web_Search_Agent.ipynb) | Agency spectrum, workflow patterns (Routing, Reflection, Parallelism), native Gemini 3.8 Flash tool calling, Model Context Protocol (MCP), and an **autonomous research agent**. |
+| **04. Cognitive Reasoning**| [`04_Reasoning_Models_Deep_Research_Engine.ipynb`](./04_Reasoning_Models_Deep_Research_Engine/04_Reasoning_Models_Deep_Research_Engine.ipynb) | System 1 vs System 2 thinking, Gemini 3 Thinking tokens (`ThinkingConfig`), test-time compute scaling (Best-of-N, Tree-of-Thoughts), and an **autonomous Deep Research engine**. |
+| **05. Multimodal Vision** | [`05_Multimodal_Vision_Media_Synthesis_Agent.ipynb`](./05_Multimodal_Vision_Media_Synthesis_Agent/05_Multimodal_Vision_Media_Synthesis_Agent.ipynb) | Diffusion denoising mechanics, visual inspection with **Gemini 3.8 Flash**, photorealistic image synthesis with **Nano Banana Pro (`gemini-3-pro-image`)** & **Nano Banana 2 (`gemini-3.1-flash-image`)**, and a **creative campaign studio**. |
+| **06. Tokenomics & Gateway** | [`06_Tokenomics_Cost_Optimization_LLM_Gateway.ipynb`](./06_Tokenomics_Cost_Optimization_LLM_Gateway/06_Tokenomics_Cost_Optimization_LLM_Gateway.ipynb) | Input/Output/Cached token economics, Gemini Context Caching (75-90% off), Dynamic 3-Tier Model Router (`gemini-3.5-flash-lite` vs `gemini-3.8-flash` vs `gemini-3.1-pro-preview`), fallback cascades, and live cost telemetry. |
+| **07. Capstone SRE** | [`07_Capstone_OmniOps_Autonomous_SRE_Platform.ipynb`](./07_Capstone_OmniOps_Autonomous_SRE_Platform/07_Capstone_OmniOps_Autonomous_SRE_Platform.ipynb) | Autonomous incident triage platform uniting RAG (`gemini-embedding-2`) + Vision + Thinking + Tools (`gemini-3.8-flash`), packaged as a **FastAPI backend** on **Google Cloud Run**. |
+| **08. FinTech Copilot** | [`08_Tax_Aware_Target_Return_Fintech_Platform.ipynb`](./08_Tax_Aware_Target_Return_Fintech_Platform/08_Tax_Aware_Target_Return_Fintech_Platform.ipynb) | Consumer wealth copilot powered by **Gemini 3.8 Flash** with **DhanHQ MCP**, **Zerodha Kite MCP** + **Razorpay MCP**, Newbie Zero-Friction onboarding, **Section 111A Indian STCG (20.8%) tax hurdle engine**, GTT trailing stop-loss, and tax-loss harvesting. |
 
 ---
 
@@ -53,8 +53,8 @@ In traditional software, we write deterministic code (`if / else`). In ML Resear
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-org/ai-engineering-masterclass.git
-cd ai-engineering-masterclass
+git clone https://github.com/cmanikandan/ai-engineering.git
+cd ai-engineering
 ```
 
 ### Step 2: Set Up a Python Environment
@@ -84,7 +84,7 @@ export GOOGLE_CLOUD_LOCATION="us-central1"
 ```bash
 jupyter lab
 ```
-Open any of the 7 module folders and dive in!
+Open any of the 8 module folders and dive in!
 
 ---
 
@@ -133,13 +133,13 @@ curl -X POST "https://<YOUR_SERVICE_URL>/api/v1/triage" \
 | **Token** | A piece of a word (roughly 4 characters or 0.75 words). Models read and write in tokens, not letters. |
 | **Temperature** | The "creativity dial" ($0.0$ = strict and factual; $1.0$ = creative and varied). |
 | **Prompt** | The text instruction you provide to the model. |
-| **Context Window** | The maximum number of tokens (memory) the model can read in a single conversation. |
-| **Embedding** | A list of numbers (vector) representing the *meaning* of a piece of text. |
+| **Context Window** | The maximum number of tokens (memory) the model can read in a single conversation (1M tokens in Gemini 3.8 Flash & 3.1 Pro). |
+| **Embedding** | A list of numbers (vector) representing the *meaning* of text or multimodal content (`gemini-embedding-2`). |
 | **Vector DB** | A database that searches by *concept similarity* rather than exact keyword matches. |
 | **RAG** | Retrieval-Augmented Generation: Giving the model relevant documents before asking it to answer. |
 | **Agent** | An LLM connected to external tools (like search, calculators, databases) that can take actions. |
-| **Thinking Tokens** | Hidden reasoning scratchpad tokens generated by models like Gemini 3.7 | Gemini 2.7/3.7 before giving the final answer. |
-| **Diffusion** | An AI technique that turns random visual noise into high-resolution images and videos. |
+| **Thinking Tokens** | Internal reasoning scratchpad tokens generated by Gemini 3.8 Flash and Gemini 3.1 Pro before giving the final answer. |
+| **Diffusion / Nano Banana** | Native multimodal and diffusion generation techniques (`gemini-3-pro-image` & `gemini-3.1-flash-image`) that turn text and reference context into high-resolution images. |
 
 ---
 

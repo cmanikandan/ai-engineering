@@ -74,7 +74,7 @@ corpus = [f"{r['title']}: {r['content']}" for r in RUNBOOKS]
 bm25 = BM25Okapi([t.lower().split() for t in corpus])
 
 # Embed corpus
-emb_resp = client.models.embed_content(model="text-embedding-004", contents=corpus)
+emb_resp = client.models.embed_content(model="gemini-embedding-2", contents=corpus)
 kb_collection.add(
     ids=[r["id"] for r in RUNBOOKS],
     embeddings=[e.values for e in emb_resp.embeddings],
@@ -110,7 +110,7 @@ async def triage_incident(request: IncidentTriageRequest):
     """Executes full autonomous triage, runbook retrieval, and SRE postmortem synthesis."""
     try:
         # 1. RAG Search
-        q_emb = client.models.embed_content(model="text-embedding-004", contents=request.telemetry_summary).embeddings[0].values
+        q_emb = client.models.embed_content(model="gemini-embedding-2", contents=request.telemetry_summary).embeddings[0].values
         v_res = kb_collection.query(query_embeddings=[q_emb], n_results=2)["ids"][0]
         matched_rbs = [r for r in RUNBOOKS if r["id"] in v_res]
         rb_context = "\n\n".join([f"[{r['id']}] {r['title']}: {r['content']}" for r in matched_rbs])
@@ -130,7 +130,7 @@ RUNBOOK CONTEXT:
 Execute simulated remediation: scale Cloud Run memory to 2Gi and instances to 200.
 """
         resp = client.models.generate_content(
-            model="gemini-3.7-flash",
+            model="gemini-3.8-flash",
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -161,7 +161,7 @@ Identify:
 3. Recommended remediation steps
 """
         resp = client.models.generate_content(
-            model="gemini-3.7-flash",
+            model="gemini-3.8-flash",
             contents=[pil_img, prompt],
             config=types.GenerateContentConfig(temperature=0.0)
         )

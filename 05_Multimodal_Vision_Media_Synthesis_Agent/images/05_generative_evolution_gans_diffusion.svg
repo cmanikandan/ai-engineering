@@ -16,5 +16,5 @@
   <text x="435" y="95" fill="#f0f6fc" font-family="sans-serif" font-size="10">• Forward Pass: Slowly adds Gaussian noise</text>
   <text x="435" y="115" fill="#f0f6fc" font-family="sans-serif" font-size="10">• Reverse Pass: Neural network removes noise step-by-step</text>
   <text x="435" y="135" fill="#f0f6fc" font-family="sans-serif" font-size="10">• Stable training &amp; incredible 4K detail</text>
-  <text x="435" y="160" fill="#3fb950" font-family="sans-serif" font-size="10" font-weight="bold">Powers Google Imagen 3 &amp; Veo</text>
+  <text x="435" y="160" fill="#3fb950" font-family="sans-serif" font-size="10" font-weight="bold">Powers Nano Banana Pro &amp; Veo</text>
 </svg>

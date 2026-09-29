@@ -6,7 +6,7 @@
 
   <!-- Gemini Agent Core -->
   <rect x="40" y="70" width="870" height="150" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="2" />
-  <text x="60" y="100" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 2.7 FLASH AGENT DEVELOPMENT KIT (ADK) HUB</text>
+  <text x="60" y="100" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 3.8 FLASH AGENT DEVELOPMENT KIT (ADK) HUB</text>
   
   <rect x="60" y="115" width="250" height="85" rx="6" fill="#21262d" stroke="#30363d" />
   <text x="75" y="140" fill="#f0f6fc" font-family="sans-serif" font-size="12" font-weight="bold">Long-Term Memory</text>

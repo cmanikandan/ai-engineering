@@ -43,17 +43,17 @@
 
   <!-- Tier 1 -->
   <rect x="345" y="195" width="460" height="48" rx="6" fill="#1f2d23" stroke="#238636" />
-  <text x="360" y="217" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🟢 Tier 1: Fast &amp; Cheap (gemini-2.5-flash-lite / $0.075 per 1M)</text>
+  <text x="360" y="217" fill="#3fb950" font-family="sans-serif" font-size="12" font-weight="bold">🟢 Tier 1: Fast &amp; Cheap (gemini-3.5-flash-lite / $0.075 per 1M)</text>
   <text x="360" y="234" fill="#8b949e" font-family="sans-serif" font-size="11">JSON Extraction, Intent Classification, Summarization, Filtering</text>
 
   <!-- Tier 2 -->
   <rect x="345" y="253" width="460" height="48" rx="6" fill="#1b2a4a" stroke="#388bfd" />
-  <text x="360" y="275" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🔵 Tier 2: General Enterprise Workhorse (gemini-2.5-flash / $0.15 per 1M)</text>
+  <text x="360" y="275" fill="#58a6ff" font-family="sans-serif" font-size="12" font-weight="bold">🔵 Tier 2: General Enterprise Workhorse (gemini-3.8-flash / $0.15 per 1M)</text>
   <text x="360" y="292" fill="#8b949e" font-family="sans-serif" font-size="11">RAG Support Bot, Tool Calling, Multimodal Vision, Web Agent</text>
 
   <!-- Tier 3 -->
   <rect x="345" y="311" width="460" height="48" rx="6" fill="#382915" stroke="#d29922" />
-  <text x="360" y="333" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">🟡 Tier 3: Frontier Reasoning (gemini-2.5-pro &amp; gemini-3.7-thinking)</text>
+  <text x="360" y="333" fill="#d29922" font-family="sans-serif" font-size="12" font-weight="bold">🟡 Tier 3: Frontier Reasoning (gemini-3.1-pro-preview &amp; 3.8-flash)</text>
   <text x="360" y="350" fill="#8b949e" font-family="sans-serif" font-size="11">Multi-step Root Cause Analysis, Code Migration, Complex Math &amp; Logic</text>
 
   <!-- Step 3: Telemetry &amp; Cost Dashboard -->
