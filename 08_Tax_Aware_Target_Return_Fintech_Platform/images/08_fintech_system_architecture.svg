@@ -14,7 +14,7 @@
 
   <!-- Core Agentic Brain -->
   <rect x="30" y="205" width="940" height="230" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="2" />
-  <text x="50" y="235" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 3.8 FLASH &amp; 3.1 PRO THINKING MULTI-AGENT SWARM (ADK)</text>
+  <text x="50" y="235" fill="#58a6ff" font-family="sans-serif" font-size="14" font-weight="bold">GEMINI 3.8 FLASH &amp; 4 ARGON THINKING MULTI-AGENT SWARM (ADK)</text>
 
   <!-- Agent 1 -->
   <rect x="50" y="255" width="205" height="160" rx="6" fill="#21262d" stroke="#30363d" />

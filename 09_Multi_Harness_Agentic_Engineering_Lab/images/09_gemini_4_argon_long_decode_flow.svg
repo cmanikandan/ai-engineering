@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 560" width="1320" height="560">
+  <rect width="1320" height="560" fill="#fffef7"/>
+  <rect x="28" y="22" width="1264" height="68" rx="12" fill="#1e1b4b"/>
+  <text x="52" y="52" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#ffffff">INSIDE GEMINI 4 ARGON: UNIFIED 1M WINDOW &amp; LONG-DECODE CONTINUATION HOPS</text>
+  <text x="52" y="74" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c4b5fd">How background=True lets a single interaction generate past 64K tokens up to 1,048,576 tokens seamlessly</text>
+
+  <!-- Unified 1M Window Bar -->
+  <rect x="45" y="120" width="1230" height="90" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="2.5"/>
+  <text x="65" y="146" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e1b4b">Unified 1,048,576 Token Context &amp; Generation Budget (Shared Across Input + Thinking + Multi-Hop Output)</text>
+
+  <rect x="65" y="160" width="240" height="34" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="185" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1e3a8a" text-anchor="middle">1. Input Prompt &amp; Files</text>
+
+  <rect x="315" y="160" width="270" height="34" rx="6" fill="#fef3c7" stroke="#d97706"/>
+  <text x="450" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#92400e" text-anchor="middle">2. Thinking (low | medium | high)</text>
+
+  <rect x="595" y="160" width="210" height="34" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="700" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#166534" text-anchor="middle">3. Hop 1: model_output (64K)</text>
+
+  <rect x="815" y="160" width="210" height="34" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="920" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#166534" text-anchor="middle">4. Hop 2: model_output (64K)</text>
+
+  <rect x="1035" y="160" width="220" height="34" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="1145" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#166534" text-anchor="middle">5. Hop N: Up to max_output_tokens</text>
+
+  <!-- Step-by-Step Code & Architecture Callout -->
+  <rect x="45" y="240" width="600" height="285" rx="12" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="65" y="270" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#60a5fa">Canonical Gemini 4 Argon Long-Decode Pattern</text>
+  <text x="65" y="300" font-family="Courier, monospace" font-size="12" fill="#f8fafc">interaction = client.interactions.create(</text>
+  <text x="65" y="322" font-family="Courier, monospace" font-size="12" fill="#fde047">    model="gemini-4-argon",</text>
+  <text x="65" y="344" font-family="Courier, monospace" font-size="12" fill="#f8fafc">    input="Synthesize full compiler &amp; formal proof...",</text>
+  <text x="65" y="366" font-family="Courier, monospace" font-size="12" fill="#34d399">    background=True,  # Server runs continuation hops!</text>
+  <text x="65" y="388" font-family="Courier, monospace" font-size="12" fill="#f8fafc">    generation_config={</text>
+  <text x="65" y="410" font-family="Courier, monospace" font-size="12" fill="#f472b6">        "max_output_tokens": 262144,</text>
+  <text x="65" y="432" font-family="Courier, monospace" font-size="12" fill="#f472b6">        "thinking_level": "high",</text>
+  <text x="65" y="454" font-family="Courier, monospace" font-size="12" fill="#f8fafc">    },</text>
+  <text x="65" y="476" font-family="Courier, monospace" font-size="12" fill="#f8fafc">)</text>
+  <text x="65" y="502" font-family="Courier, monospace" font-size="11.5" fill="#93c5fd"># Join text across all step.type == "model_output" steps!</text>
+
+  <rect x="675" y="240" width="600" height="285" rx="12" fill="#fef9c3" stroke="#ca8a04" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="700" y="274" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#854d0e">🧠 Architect Watch Out! (3 Gotchas That Trap Engineers)</text>
+  <text x="700" y="310" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#713f12">1. Don't set max_output_tokens too low (&lt; 32,768):</text>
+  <text x="700" y="330" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">Thinking + output share max_output_tokens. If set to 4K, high thinking</text>
+  <text x="700" y="348" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">will consume the budget before final output tokens are emitted!</text>
+
+  <text x="700" y="384" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#713f12">2. Always join all model_output steps on Long Decode:</text>
+  <text x="700" y="404" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">Each 64K continuation hop appends a new model_output step to</text>
+  <text x="700" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">interaction.steps. Iterate over all model_output steps to get the full text.</text>
+
+  <text x="700" y="458" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#713f12">3. Tune thinking_level ("low" | "medium" | "high"):</text>
+  <text x="700" y="478" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">Default is "medium". Use "low" for fast analysis and "high" for</text>
+  <text x="700" y="496" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">hard math, formal proofs, and multi-file architectural synthesis.</text>
+</svg>

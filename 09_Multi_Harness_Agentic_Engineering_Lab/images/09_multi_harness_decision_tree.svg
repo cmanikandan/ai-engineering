@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 760" width="1360" height="760">
+  <defs>
+    <filter id="sh9" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1360" height="760" fill="#fffef7"/>
+  <rect x="28" y="22" width="1304" height="74" rx="12" fill="#0f172a"/>
+  <text x="52" y="54" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">ENTERPRISE ARCHITECT'S GUIDE: CHOOSING THE RIGHT GEMINI HARNESS (2026)</text>
+  <text x="52" y="78" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#fde047">Don't build a bespoke agent loop from scratch when a managed sandbox or declarative harness fits your SLA!</text>
+
+  <!-- 6 Cards (3x2 grid) -->
+  <!-- 1. Direct Interactions API -->
+  <g filter="url(#sh9)">
+    <rect x="32" y="118" width="415" height="275" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2.5"/>
+    <rect x="32" y="118" width="415" height="38" rx="10" fill="#dbeafe"/>
+    <text x="240" y="142" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a" text-anchor="middle">1. Direct GenAI Interactions API</text>
+    <text x="50" y="178" font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#1d4ed8">client.interactions.create(model="gemini-4-argon")</text>
+    <text x="50" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Stateful multi-turn via previous_interaction_id (55d)</text>
+    <text x="50" y="228" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Background Long-Decode up to 1M output tokens</text>
+    <text x="50" y="250" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Typed steps timeline: thought, function_call, output</text>
+    <text x="50" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Fine-grained SSE streaming (step.delta events)</text>
+    <rect x="48" y="335" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="239" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: You want maximum control &amp; 1M Long-Decode</text>
+  </g>
+
+  <!-- 2. Google Antigravity SDK -->
+  <g filter="url(#sh9)">
+    <rect x="472" y="118" width="415" height="275" rx="12" fill="#ffffff" stroke="#059669" stroke-width="2.5"/>
+    <rect x="472" y="118" width="415" height="38" rx="10" fill="#d1fae5"/>
+    <text x="680" y="142" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#065f46" text-anchor="middle">2. Google Antigravity SDK (google.antigravity)</text>
+    <text x="490" y="178" font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#047857">async with Agent(config=LocalAgentConfig(...))</text>
+    <text x="490" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• AUTONOMOUS vs INTERACTIVE (ask_question) modes</text>
+    <text x="490" y="228" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Nested SubagentConfig (max_subagent_depth=3)</text>
+    <text x="490" y="250" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• OS-level sandbox + Pre/Post Tool Call Hooks</text>
+    <text x="490" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• BudgetConfig + CompactionConfig + LiteRT Gemma 4</text>
+    <rect x="488" y="335" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="679" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: Building coding/ops agents with subagents</text>
+  </g>
+
+  <!-- 3. Gemini Managed Agents -->
+  <g filter="url(#sh9)">
+    <rect x="912" y="118" width="415" height="275" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="2.5"/>
+    <rect x="912" y="118" width="415" height="38" rx="10" fill="#fef3c7"/>
+    <text x="1120" y="142" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e" text-anchor="middle">3. Gemini Managed Agents (Cloud Linux VM)</text>
+    <text x="930" y="178" font-family="Courier, monospace" font-size="11.5" font-weight="bold" fill="#b45309">agent="antigravity-preview-09-2026", env="remote"</text>
+    <text x="930" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Zero-setup Google-hosted Linux container sandbox</text>
+    <text x="930" y="228" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Supports gemini-4-argon &amp; gemini-3.8-flash</text>
+    <text x="930" y="250" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Mount GitHub repos via client.agents.create()</text>
+    <text x="930" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Deep Research Max (deep-research-max-preview)</text>
+    <rect x="928" y="335" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="1119" y="360" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: You need serverless remote Bash/Python</text>
+  </g>
+
+  <!-- 4. Google ADK -->
+  <g filter="url(#sh9)">
+    <rect x="32" y="425" width="415" height="295" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+    <rect x="32" y="425" width="415" height="38" rx="10" fill="#ede9fe"/>
+    <text x="240" y="449" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5b21b6" text-anchor="middle">4. Google Agent Development Kit (Google ADK)</text>
+    <text x="50" y="485" font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#6d28d9">SequentialAgent / ParallelAgent / LoopAgent</text>
+    <text x="50" y="513" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Deterministic workflow orchestration primitives</text>
+    <text x="50" y="535" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Pluggable SessionService &amp; ArtifactService</text>
+    <text x="50" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Built-in evaluation &amp; streaming Runner</text>
+    <text x="50" y="579" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Seamless deployment to Vertex AI Agent Engine</text>
+    <rect x="48" y="655" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="239" y="680" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: Orchestrating deterministic multi-agent DAGs</text>
+  </g>
+
+  <!-- 5. Gemini Enterprise Platform -->
+  <g filter="url(#sh9)">
+    <rect x="472" y="425" width="415" height="295" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="2.5"/>
+    <rect x="472" y="425" width="415" height="38" rx="10" fill="#e0f2fe"/>
+    <text x="680" y="449" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#075985" text-anchor="middle">5. Gemini Enterprise Platform (Vertex AI)</text>
+    <text x="490" y="485" font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#0369a1">LocalAgentConfig(vertex=True, project=..., location=...)</text>
+    <text x="490" y="513" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Standard Mode (ADC/IAM) &amp; Express Mode (API Key)</text>
+    <text x="490" y="535" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Priority Inference (ServiceTier.PRIORITY) &amp; Flex</text>
+    <text x="490" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• VPC Service Controls, CMEK &amp; Data Residency</text>
+    <text x="490" y="579" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Model Armor &amp; Enterprise Cloud Audit Logging</text>
+    <rect x="488" y="655" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="679" y="680" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: Regulated enterprise compliance &amp; SLAs</text>
+  </g>
+
+  <!-- 6. Multimodal & Live WebSockets -->
+  <g filter="url(#sh9)">
+    <rect x="912" y="425" width="415" height="295" rx="12" fill="#ffffff" stroke="#e11d48" stroke-width="2.5"/>
+    <rect x="912" y="425" width="415" height="38" rx="10" fill="#ffe4e6"/>
+    <text x="1120" y="449" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#9f1239" text-anchor="middle">6. Multimodal &amp; Live WebSocket Harness</text>
+    <text x="930" y="485" font-family="Courier, monospace" font-size="11.5" font-weight="bold" fill="#be123c">client.aio.live.connect(model="gemini-3.8-live")</text>
+    <text x="930" y="513" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Nano Banana 2.1 (4K image gen &amp; 14-image fusion)</text>
+    <text x="930" y="535" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Omni 1.1 Flash (40s video extension &amp; FIRST_FRAME)</text>
+    <text x="930" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• Live Extended Thinking (NON_BLOCKING async tools)</text>
+    <text x="930" y="579" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">• 3.8 Flash TTS (Voice Design) &amp; 3.5 Transcribe</text>
+    <rect x="928" y="655" width="382" height="40" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-dasharray="4,3"/>
+    <text x="1119" y="680" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#854d0e" text-anchor="middle">💡 Pick when: Voice agents, 4K visual design &amp; video</text>
+  </g>
+</svg>

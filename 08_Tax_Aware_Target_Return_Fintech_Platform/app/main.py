@@ -1,6 +1,6 @@
 """
 WealthPulse AI: Autonomous Tax-Aware Target-Return FinTech Copilot Backend.
-Powered by Gemini 3.8 Flash & Gemini 3.1 Pro with DhanHQ, Zerodha Kite & Razorpay MCP Servers.
+Powered by Gemini 3.8 Flash & Gemini 4 Argon with DhanHQ, Zerodha Kite & Razorpay MCP Servers.
 Includes Interactive Web UI Dashboard, JWT Authentication, and Intraday (EOD) Trading Logic.
 """
 

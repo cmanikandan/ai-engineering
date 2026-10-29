@@ -1,7 +1,11 @@
-# Core Google GenAI and Vertex AI SDKs
-google-genai>=1.0.0
+# Core Google GenAI (v2.30+ Interactions API, Gemini 4 Argon, 3.8 Flash, Nano Banana 2.1, Omni 1.1 Flash, Live 3.8)
+google-genai>=2.30.1
 google-cloud-aiplatform>=1.75.0
 google-cloud-storage>=2.19.0
+
+# Optional Multi-Harness SDKs (Google Antigravity SDK & Google ADK)
+# google-antigravity>=0.1.0
+# google-adk>=1.0.0
 
 # LLM Frameworks, Vector DBs & Information Retrieval
 chromadb>=0.6.0
@@ -27,7 +31,7 @@ rank-bm25>=0.2.2
 tqdm>=4.67.0
 rich>=13.9.4
 
-# API & Cloud Deployment Services
+# API, LLM Gateway, FinOps Dashboard & Cloud Run Services
 fastapi>=0.115.0
 uvicorn>=0.32.0
 python-dotenv>=1.0.1
